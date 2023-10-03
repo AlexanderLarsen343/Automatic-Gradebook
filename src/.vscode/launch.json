@@ -1,0 +1,29 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch with Arguments Prompt",
+            "request": "launch",
+            "mainClass": "PA1_main",
+            "args": "${cwd}/Inputs/homework_1.csv ${cwd}/Inputs/homework_2.csv ${cwd}/Inputs/quizzes_1.csv ${cwd}/Inputs/quizzes_2.csv ${cwd}/Inputs/exams_1.csv ${cwd}/Inputs/exams_2.csv"
+        },
+        
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch PA1_main",
+            "request": "launch",
+            "mainClass": "PA1_main",
+            "projectName": "src_6985a551"
+        }
+    ]
+}
